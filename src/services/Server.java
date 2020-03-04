@@ -40,13 +40,13 @@ public class Server extends Connection {
 			      //aquí se conecta un cliente al server socket y muestra
 			      //el mensaje que se ha conectado un cliente, y despacha
 			      //al cliente en un hilo individual (DespachaClientes)
-			      Client++;
-			      System.out.println("Cliente " + Client + " en línea");
+			      outputClient++;
+			      System.out.println("Cliente " + outputClient + " en línea");
 
 			      DespachaClientes hilo = new DespachaClientes(cs);
 			      hilo.start();
 			      System.out.println("clientes atendidos:"+hilo.clientesAtendidos());
-			      System.out.println("hilos de clientes activos:"+hilo.hilosActivos1());
+			      System.out.println("hilos de clientes activos:"+DespachaClientes.hilosActivos1);
 			  }
 			
 			 

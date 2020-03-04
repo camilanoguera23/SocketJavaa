@@ -10,5 +10,10 @@ public class MainServer {
 
 	}
 
+	public void startServer() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
 
