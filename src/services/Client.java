@@ -16,7 +16,7 @@ public class Client extends Connection
 		System.out.println(client+ "running...");
 		try {
 		outputServer = new DataOutputStream(s.getOutputStream());
-		System.out.println("cient> sending data to server...");
+		System.out.println(client+ "> sending data to server...");
 		for(int i =0; i < 2; i++)
 		{
 			

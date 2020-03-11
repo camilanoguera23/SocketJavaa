@@ -6,8 +6,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Connection {
-	private final int PORT = 8090;
-	private final String HOST = "LOCALHOST";
+	private final int PORT = 1234;
+	private final String HOST = "127.0.0.1";
 	
 	
 	protected ServerSocket ss;
